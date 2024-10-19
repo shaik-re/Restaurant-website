@@ -1,0 +1,48 @@
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navigation-menu li a:hover {
+    color: goldenrod; /* Change color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+.active {
+    color: goldenrod !important;
+    font-weight: bold !important;
+}
+
+/* mobile view */
+.mobile-navigation {
+    list-style: none;
+    background-color: white; /* Set a background color */
+    padding: 10px; /* Optional: add padding for spacing */
+}
+
+.mobile-navigation li {
+    margin-top: 20px;
+}
+
+.mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem; /* Adjusted size for mobile view */
+    color: black;
+}
+
+.mobile-navigation li a:hover {
+    color: goldenrod; /* Change color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
